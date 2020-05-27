@@ -1,7 +1,7 @@
 import React from "react"
 
-const Card = ({ title, link, screenshot, screenshotAlt, logo, logoAlt, text1, text2, text3, text4 }) => (
-  <div className="card">
+const Card = ({ title, type, link, screenshot, screenshotAlt, logo, logoAlt, text1, text2, text3, text4 }) => (
+  <div className={type}>
     <a href={link} target="_blank" rel="noreferrer"><img src={screenshot} alt={screenshotAlt}/></a>
     <div className="content">
       <div className="top">

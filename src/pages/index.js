@@ -6,6 +6,8 @@ import Card from "../components/card"
 
 import incorpus from "../images/inCORPUS.jpg"
 import incorpusLogo from "../images/inCORPUS-logo.svg"
+import cerbo from "../images/cerbo.jpg"
+import cerboLogo from "../images/cerbo-logo.svg"
 import maisonCedric from "../images/maison-cedric.jpg"
 import maisonCedricLogo from "../images/gatsby-logo.svg"
 import approximity from "../images/approximity.jpg"
@@ -19,6 +21,7 @@ const IndexPage = () => (
     <h1 className="main">Hi, I'm Alex. I'm a frontend developper and UX/UI designer from France living in Montreal</h1>
     <Card
       title="inCORPUS®"
+      type="card left"
       link="https://www.in-corpus.com/"
       screenshot={incorpus}
       screenshotAlt="inCORPUS.jpg"
@@ -30,7 +33,19 @@ const IndexPage = () => (
       text4="APIs: ActiveCampaign, Intercom"
     ></Card>
     <Card
+      title="Cerbo, Inc."
+      type="card right"
+      link="https://cerbo.me/"
+      screenshot={cerbo}
+      screenshotAlt="cerbo.jpg"
+      logo={cerboLogo}
+      logoAlt="cerbo-logo.svg"
+      text1="Stack: Flask - Python, JS (JQuery), HTML & CSS"
+      text2="I cofounded this startup in EdTech"
+    ></Card>
+    <Card
       title="Maison Cédric"
+      type="card left"
       link="https://maisoncedric.netlify.app/"
       screenshot={maisonCedric}
       screenshotAlt="maison-cedric.jpg"
@@ -42,6 +57,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Approximity"
+      type="card right"
       link="https://approximity.herokuapp.com/"
       screenshot={approximity}
       screenshotAlt="approximity.jpg"
@@ -52,6 +68,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Funk My Mood"
+      type="card left"
       link="https://funk-my-mood.herokuapp.com/"
       screenshot={funkMyMood}
       screenshotAlt="funk-my-mood.jpg"
