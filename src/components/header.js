@@ -6,7 +6,7 @@ import logo from "../images/carla.svg"
 const Header = () => (
   <header>
     <div className="line"></div>
-    <Link to="/"><img className="logo" src={logo} alt="logo.svg"/></Link>
+    <Link to="/"><img className="logo" src={logo} alt="carla.svg"/></Link>
   </header>
 )
 
