@@ -10,6 +10,8 @@ import maisonCedric from "../images/maison-cedric.jpg"
 import maisonCedricLogo from "../images/gatsby-logo.svg"
 import approximity from "../images/approximity.jpg"
 import approximityLogo from "../images/approximity-logo.svg"
+import funkMyMood from "../images/funk-my-mood.jpg"
+import funkMyMoodLogo from "../images/funk-my-mood-logo.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -45,6 +47,16 @@ const IndexPage = () => (
       screenshotAlt="approximity.jpg"
       logo={approximityLogo}
       logoAlt="approximity-logo.svg"
+      text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
+      text2="APIs: Mapbox, Google Maps for the seed"
+    ></Card>
+    <Card
+      title="Funk My Mood"
+      link="https://funk-my-mood.herokuapp.com/"
+      screenshot={funkMyMood}
+      screenshotAlt="funk-my-mood.jpg"
+      logo={funkMyMoodLogo}
+      logoAlt="funk-my-mood.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
     ></Card>
