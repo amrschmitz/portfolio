@@ -1,9 +1,14 @@
 import React from "react"
 
+// FontAwesome icons
+import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
+// Images
 import incorpus from "../images/inCORPUS.jpg"
 import incorpusLogo from "../images/inCORPUS-logo.svg"
 import cerbo from "../images/cerbo.jpg"
@@ -27,6 +32,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
     <h1 className="main">Hi, I'm Alex. I'm a frontend developper and UX/UI designer from France living in Montreal</h1>
+    <div className="social-media">
+      <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
+        <FaEnvelope/>
+      </a>
+      <a href="https://www.linkedin.com/in/amrschmitz/" aria-label="Go to LinkedIn" target="_blank" rel="noreferrer">
+        <FaLinkedinIn/>
+      </a>
+      <a href="https://github.com/amrschmitz" aria-label="Go to GitHub" target="_blank" rel="noreferrer">
+        <FaGithub/>
+      </a>
+    </div>
     <Card
       title="inCORPUS®"
       type="card left"
