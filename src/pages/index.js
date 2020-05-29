@@ -14,6 +14,14 @@ import approximity from "../images/approximity.jpg"
 import approximityLogo from "../images/approximity-logo.svg"
 import funkMyMood from "../images/funk-my-mood.jpg"
 import funkMyMoodLogo from "../images/funk-my-mood-logo.svg"
+import rt2health from "../images/rt2health.jpg"
+import rt2healthLogo from "../images/rt2health-logo.png"
+import leMargaux from "../images/le-margaux.jpg"
+import leMargauxLogo from "../images/le-margaux-logo.svg"
+import marineDaoure from "../images/marine-daoure.jpg"
+import marineDaoureLogo from "../images/marine-daoure-logo.svg"
+import mavisTeo from "../images/mavis-teo.jpg"
+import mavisTeoLogo from "../images/mavis-teo-logo.png"
 
 const IndexPage = () => (
   <Layout>
@@ -76,6 +84,46 @@ const IndexPage = () => (
       logoAlt="funk-my-mood.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
+    ></Card>
+    <Card
+      title="Restaurant Le Margaux"
+      type="card right"
+      link="https://www.lemargaux.com/"
+      screenshot={leMargaux}
+      screenshotAlt="le-margaux.jpg"
+      logo={leMargauxLogo}
+      logoAlt="le-margaux-logo.svg"
+      text1="Stack: Wix"
+    ></Card>
+    <Card
+      title="Right2 Health Navigators, Inc."
+      type="card left"
+      link="https://www.rt2health.com/"
+      screenshot={rt2health}
+      screenshotAlt="rt2health.jpg"
+      logo={rt2healthLogo}
+      logoAlt="rt2health-logo.png"
+      text1="Stack: Wix"
+    ></Card>
+    <Card
+      title="Marine d'Aouré"
+      type="card right"
+      link="https://www.marinedaoure.com/"
+      screenshot={marineDaoure}
+      screenshotAlt="marine-daoure.jpg"
+      logo={marineDaoureLogo}
+      logoAlt="marine-daoure-logo.svg"
+      text1="Stack: Wix"
+    ></Card>
+    <Card
+      title="Mavis Teo"
+      type="card left"
+      link="https://www.mavisteo.com/"
+      screenshot={mavisTeo}
+      screenshotAlt="mavis-teo.jpg"
+      logo={mavisTeoLogo}
+      logoAlt="mavis-teo-logo.png"
+      text1="Stack: Wix"
     ></Card>
   </Layout>
 )
