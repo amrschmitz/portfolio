@@ -11,7 +11,7 @@ const Card = ({ title, type, link, screenshot, screenshotAlt, logo, logoAlt, tex
         <Fade><img className="logo" src={logo} alt={logoAlt}/></Fade>
       </div>
       { type === 'card left' &&
-        <Slide right>
+        <Slide right duration={2000}>
           <div>
             <a href={link} target="_blank" rel="noreferrer"><h2>{title}</h2></a>
             { text1 &&
@@ -33,7 +33,7 @@ const Card = ({ title, type, link, screenshot, screenshotAlt, logo, logoAlt, tex
         </Slide>
       }
       { type === 'card right' &&
-        <Slide left>
+        <Slide left duration={2000}>
           <div>
             <a href={link} target="_blank" rel="noreferrer"><h2>{title}</h2></a>
             { text1 &&
