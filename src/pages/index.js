@@ -31,7 +31,7 @@ import mavisTeoLogo from "../images/mavis-teo-logo.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
-    <h1 className="main">Hi, I'm Alex. I'm a frontend developper and UX/UI designer from France living in Montreal</h1>
+    <h1 className="main">Hi, I'm Alexandre. I'm a frontend developer and UX/UI designer from France living in Montreal</h1>
     <div className="social-media">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope/>
@@ -52,9 +52,9 @@ const IndexPage = () => (
       logo={incorpusLogo}
       logoAlt="inCORPUS-logo.svg"
       text1="Stack: GatsbyJS (React) - JS, HTML & CSS"
-      text2="Languages: French & English"
+      text2="APIs: ActiveCampaign, Intercom"
       text3="CMS: Contentful"
-      text4="APIs: ActiveCampaign, Intercom"
+      text4="Languages: French & English"
     ></Card>
     <Card
       title="Cerbo, Inc."
@@ -66,6 +66,7 @@ const IndexPage = () => (
       logoAlt="cerbo-logo.svg"
       text1="Stack: Flask - Python, JS (JQuery), HTML & CSS"
       text2="I cofounded this startup in EdTech"
+      text3="Language: English"
     ></Card>
     <Card
       title="Maison Cédric"
@@ -76,8 +77,8 @@ const IndexPage = () => (
       logo={maisonCedricLogo}
       logoAlt="gatsby-logo.svg"
       text1="Stack: GatsbyJS (React) - JS, HTML & CSS"
-      text2="Languages: French & English"
-      text3="CMS: Airtable"
+      text2="CMS: Airtable used as a database"
+      text3="Languages: French & English"
     ></Card>
     <Card
       title="Approximity"
@@ -89,6 +90,7 @@ const IndexPage = () => (
       logoAlt="approximity-logo.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
+      text3="Language: English"
     ></Card>
     <Card
       title="Funk My Mood"
@@ -100,6 +102,7 @@ const IndexPage = () => (
       logoAlt="funk-my-mood.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
+      text3="Language: English"
     ></Card>
     <Card
       title="Restaurant Le Margaux"
@@ -110,6 +113,7 @@ const IndexPage = () => (
       logo={leMargauxLogo}
       logoAlt="le-margaux-logo.svg"
       text1="Stack: Wix"
+      text2="Language: French"
     ></Card>
     <Card
       title="Right2 Health Navigators, Inc."
@@ -120,6 +124,7 @@ const IndexPage = () => (
       logo={rt2healthLogo}
       logoAlt="rt2health-logo.png"
       text1="Stack: Wix"
+      text2="Language: English"
     ></Card>
     <Card
       title="Marine d'Aouré"
@@ -130,6 +135,7 @@ const IndexPage = () => (
       logo={marineDaoureLogo}
       logoAlt="marine-daoure-logo.svg"
       text1="Stack: Wix"
+      text2="Languages: English & French"
     ></Card>
     <Card
       title="Mavis Teo"
@@ -140,6 +146,7 @@ const IndexPage = () => (
       logo={mavisTeoLogo}
       logoAlt="mavis-teo-logo.png"
       text1="Stack: Wix"
+      text2="Language: English"
     ></Card>
   </Layout>
 )
