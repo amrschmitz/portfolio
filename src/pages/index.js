@@ -31,6 +31,8 @@ import fondationLCP from "../images/fondationlcp.jpg"
 import fondationLCPLogo from "../images/fondationlcp-logo.png"
 import aurei from "../images/aurei.jpg"
 import aureiLogo from "../images/aurei-logo.svg"
+import centaurusCommunications from "../images/centaurus-communications.jpg"
+import centaurusCommunicationsLogo from "../images/centaurus-communications-logo.png"
 
 const IndexPage = () => (
   <Layout>
@@ -153,8 +155,19 @@ const IndexPage = () => (
       text2="Language: English"
     ></Card>
     <Card
-      title="Aurei Crypto"
+      title="Centaurus Communications"
       type="card right"
+      link="https://www.centaurusasia.com/"
+      screenshot={centaurusCommunications}
+      screenshotAlt="centaurus-communications.jpg"
+      logo={centaurusCommunicationsLogo}
+      logoAlt="centaurus-communications-logo.png"
+      text1="Stack: Wix"
+      text2="Language: English"
+    ></Card>
+    <Card
+      title="Aurei Crypto"
+      type="card left"
       link="https://www.aurei-crypto.io/"
       screenshot={aurei}
       screenshotAlt="aurei.jpg"
@@ -165,7 +178,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Fondation pour les enfants Le Choix du Président"
-      type="card left"
+      type="card right"
       link="https://www.fondationlcp.com/"
       screenshot={fondationLCP}
       screenshotAlt="fondationlcp.jpg"
