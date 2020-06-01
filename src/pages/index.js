@@ -27,6 +27,10 @@ import marineDaoure from "../images/marine-daoure.jpg"
 import marineDaoureLogo from "../images/marine-daoure-logo.svg"
 import mavisTeo from "../images/mavis-teo.jpg"
 import mavisTeoLogo from "../images/mavis-teo-logo.png"
+import fondationLCP from "../images/fondationlcp.jpg"
+import fondationLCPLogo from "../images/fondationlcp-logo.png"
+import aurei from "../images/aurei.jpg"
+import aureiLogo from "../images/aurei-logo.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -45,6 +49,7 @@ const IndexPage = () => (
     </div>
     <Card
       title="inCORPUS®"
+      type="card left"
       link="https://www.in-corpus.com/"
       screenshot={incorpus}
       screenshotAlt="inCORPUS.jpg"
@@ -69,6 +74,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Maison Cédric"
+      type="card left"
       link="https://maisoncedric.netlify.app/"
       screenshot={maisonCedric}
       screenshotAlt="maison-cedric.jpg"
@@ -92,6 +98,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Funk My Mood"
+      type="card left"
       link="https://funk-my-mood.herokuapp.com/"
       screenshot={funkMyMood}
       screenshotAlt="funk-my-mood.jpg"
@@ -114,6 +121,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Right2 Health Navigators, Inc."
+      type="card left"
       link="https://www.rt2health.com/"
       screenshot={rt2health}
       screenshotAlt="rt2health.jpg"
@@ -135,6 +143,7 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Mavis Teo"
+      type="card left"
       link="https://www.mavisteo.com/"
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
@@ -142,6 +151,28 @@ const IndexPage = () => (
       logoAlt="mavis-teo-logo.png"
       text1="Stack: Wix"
       text2="Language: English"
+    ></Card>
+    <Card
+      title="Aurei Crypto"
+      type="card right"
+      link="https://www.aurei-crypto.io/"
+      screenshot={aurei}
+      screenshotAlt="aurei.jpg"
+      logo={aureiLogo}
+      logoAlt="aurei-logo.svg"
+      text1="Stack: Wix"
+      text2="Language: English"
+    ></Card>
+    <Card
+      title="Fondation pour les enfants Le Choix du Président"
+      type="card left"
+      link="https://www.fondationlcp.com/"
+      screenshot={fondationLCP}
+      screenshotAlt="fondationlcp.jpg"
+      logo={fondationLCPLogo}
+      logoAlt="fondationlcp-logo.png"
+      text1="Stack: Wix"
+      text2="Language: French & English"
     ></Card>
   </Layout>
 )
