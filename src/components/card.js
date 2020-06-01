@@ -2,7 +2,7 @@ import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 
-const Card = ({ title, type, link, screenshot, screenshotAlt, logo, logoAlt, text1, text2, text3, text4, text5 }) => (
+const Card = ({ title, type = 'card left', link, screenshot, screenshotAlt, logo, logoAlt, text1, text2, text3, text4, text5 }) => (
   <div className={type}>
     <a href={link} target="_blank" rel="noreferrer"><img src={screenshot} alt={screenshotAlt}/></a>
     <div className="content">

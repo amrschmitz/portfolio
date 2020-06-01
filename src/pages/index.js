@@ -45,7 +45,6 @@ const IndexPage = () => (
     </div>
     <Card
       title="inCORPUS®"
-      type="card left"
       link="https://www.in-corpus.com/"
       screenshot={incorpus}
       screenshotAlt="inCORPUS.jpg"
@@ -70,7 +69,6 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Maison Cédric"
-      type="card left"
       link="https://maisoncedric.netlify.app/"
       screenshot={maisonCedric}
       screenshotAlt="maison-cedric.jpg"
@@ -94,7 +92,6 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Funk My Mood"
-      type="card left"
       link="https://funk-my-mood.herokuapp.com/"
       screenshot={funkMyMood}
       screenshotAlt="funk-my-mood.jpg"
@@ -117,7 +114,6 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Right2 Health Navigators, Inc."
-      type="card left"
       link="https://www.rt2health.com/"
       screenshot={rt2health}
       screenshotAlt="rt2health.jpg"
@@ -139,7 +135,6 @@ const IndexPage = () => (
     ></Card>
     <Card
       title="Mavis Teo"
-      type="card left"
       link="https://www.mavisteo.com/"
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
