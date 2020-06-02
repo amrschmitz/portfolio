@@ -1,5 +1,5 @@
 html {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -31,7 +31,13 @@ footer {
   margin: 80px auto 0 auto;
 }
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-weight: bold;
+}
+h2, h3 {
+  font-weight: semi-bold;
 }
 h1 {
   font-size: 2em;
