@@ -8,7 +8,7 @@ const Card = ({ title, type = 'card left', link, screenshot, screenshotAlt, logo
     <div className="content">
       <div className="top">
         <div className="line"></div>
-        <Fade><img className="logo" src={logo} alt={logoAlt}/></Fade>
+        <Fade duration={4000}><img className="logo" src={logo} alt={logoAlt}/></Fade>
       </div>
       { type === 'card left' &&
         <Slide right duration={2000}>
