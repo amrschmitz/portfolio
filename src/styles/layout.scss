@@ -37,20 +37,17 @@ form {
   max-width: 600px;
   margin: 2em auto 0 auto;
   label {
-    margin-top: 1em;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    input, textarea {
-      outline: none;
-      max-width: 500px;
-      width: 100%;
-      margin-left: 1em;
-      border: none;
-      border-bottom: 1px solid black;
-      &:focus {
-        background-color: lightgray;
-      }
+    margin: 1em 0;
+  }
+  input, textarea {
+    outline: none;
+    width: 100%;
+    line-height: 2em;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: monospace;
+    &:focus {
+      background-color: lightgray;
     }
   }
   .reset {
@@ -112,15 +109,5 @@ p {
   }
   footer {
     margin: 4em 0.5em 0.6em 0.5em;
-  }
-  form {
-    label {
-      text-align: left;
-      flex-direction: column;
-      input, textarea {
-        margin: 0;
-        margin-top: 1em;
-      }
-    }
   }
 }

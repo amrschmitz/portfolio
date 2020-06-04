@@ -198,22 +198,14 @@ const IndexPage = () => (
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
-      <label>
-        Full Name
-        <input type="text" name="name" id="name" />
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" id="email" />
-      </label>
-      <label>
-        Subject
-        <input type="text" name="subject" id="subject" />
-      </label>
-      <label>
-        Message
-        <textarea name="message" id="message" rows="5" />
-      </label>
+      <label htmlFor="name">Full Name</label>
+      <input type="text" name="name" id="name" />
+      <label htmlFor="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label htmlFor="subject">Subject</label>
+      <input type="text" name="subject" id="subject" />
+      <label htmlFor="message">Message</label>
+      <textarea name="message" id="message" rows="5" />
       <div className="reset">
         <input type="reset" value="clear" role="button"/>
       </div>
