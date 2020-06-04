@@ -2,7 +2,7 @@
 import React from "react"
 
 // FontAwesome icons
-import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaPaperPlane } from 'react-icons/fa';
 
 // Components
 import Layout from "../components/layout"
@@ -38,6 +38,7 @@ import centaurusCommunicationsLogo from "../images/centaurus-communications-logo
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
+
     <h1 className="main">Hi, I'm Alexandre. I'm a frontend developer and UX/UI designer from France living in Montreal</h1>
     <div className="social-media">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
@@ -50,6 +51,7 @@ const IndexPage = () => (
         <FaGithub/>
       </a>
     </div>
+
     <Card
       title="inCORPUS®"
       type="card left"
@@ -188,6 +190,35 @@ const IndexPage = () => (
       text1="Stack: Wix"
       text2="Language: French & English"
     ></Card>
+
+    <h1>Contact me</h1>
+    <form
+      method="post"
+      action="https://getform.io/f/683ad831-2c2b-420e-a962-cfa9477e3929"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+    >
+      <label>
+        Full Name
+        <input type="text" name="name" id="name" />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" id="email" />
+      </label>
+      <label>
+        Subject
+        <input type="text" name="subject" id="subject" />
+      </label>
+      <label>
+        Message
+        <textarea name="message" id="message" rows="5" />
+      </label>
+      <div className="reset">
+        <input type="reset" value="clear" role="button"/>
+      </div>
+      <button type="submit"><FaPaperPlane/></button>
+    </form>
   </Layout>
 )
 
