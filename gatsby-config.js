@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Amrschmitz`,
-    description: `Come checkout my work!`,
+    description: `Websmith`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
         display: `minimal-ui`,
-        icon: `src/images/carla.png`, // This path is relative to the root of the site.
+        icon: `src/images/carla-black.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
