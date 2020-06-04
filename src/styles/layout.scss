@@ -42,6 +42,9 @@ form {
   input, textarea {
     outline: none;
     width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 2em;
     line-height: 2em;
     border: none;
     border-bottom: 1px solid black;
