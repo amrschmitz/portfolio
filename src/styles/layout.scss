@@ -41,7 +41,7 @@ form {
     margin: 1em 0;
   }
   input, textarea {
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 0;
     padding: 0;
     outline: none;
@@ -54,7 +54,7 @@ form {
     border-bottom: 1px solid black;
     font-family: monospace;
     &:focus {
-      font-size: 14px;
+      font-size: 16px;
       border-top: 1px solid black;
     }
   }
