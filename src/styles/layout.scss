@@ -41,6 +41,7 @@ form {
     margin: 1em 0;
   }
   input, textarea {
+    font-size: 14px;
     border-radius: 0;
     padding: 0;
     outline: none;
@@ -53,7 +54,8 @@ form {
     border-bottom: 1px solid black;
     font-family: monospace;
     &:focus {
-      background-color: lightgray;
+      font-size: 14px;
+      border-top: 1px solid black;
     }
   }
   .reset {
