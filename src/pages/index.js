@@ -2,7 +2,7 @@
 import React from "react"
 
 // FontAwesome icons
-import { FaGithub, FaLinkedinIn, FaEnvelope, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from 'react-icons/fa';
 
 // Components
 import Layout from "../components/layout"
@@ -43,6 +43,9 @@ const IndexPage = () => (
     <div className="social-media">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope/>
+      </a>
+      <a href="https://www.instagram.com/amrschmitz/" aria-label="Go to Instagram" target="_blank" rel="noreferrer">
+        <FaInstagram/>
       </a>
       <a href="https://www.linkedin.com/in/amrschmitz/" aria-label="Go to LinkedIn" target="_blank" rel="noreferrer">
         <FaLinkedinIn/>
