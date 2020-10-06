@@ -39,8 +39,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
 
-    <h1 className="main">Hi, I'm Alexandre. I'm a frontend developer and UX/UI designer from France living in Montreal</h1>
-    <div className="social-media">
+    <h1 className="main">Hi, I'm Alexandre. I'm a full stack web developer and designer from France living in Montreal</h1>
+    <div className="contact">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope/>
       </a>
