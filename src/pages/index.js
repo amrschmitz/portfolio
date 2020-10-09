@@ -9,7 +9,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Card from "../components/card"
 
-// Images
+// Images for the projects
 import incorpus from "../images/inCORPUS.jpg"
 import incorpusLogo from "../images/inCORPUS-logo.svg"
 import cerbo from "../images/cerbo.jpg"
@@ -35,12 +35,16 @@ import aureiLogo from "../images/aurei-logo.svg"
 import centaurusCommunications from "../images/centaurus-communications.jpg"
 import centaurusCommunicationsLogo from "../images/centaurus-communications-logo.png"
 
+// Images for the stacks
+import reactLogo from "../images/react-logo.svg"
+import railsLogo from "../images/rails-logo.svg"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
 
-    <h1 className="main">Hi, I'm Alexandre. I'm a full stack web developer and designer from France living in Montreal</h1>
-    <div className="contact">
+    <h1>Hi, I'm Alexandre. I'm a full stack web developer and designer from France living in Montreal</h1>
+    <div className="row">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope/>
       </a>
@@ -193,6 +197,12 @@ const IndexPage = () => (
       text1="Stack: Wix"
       text2="Language: French & English"
     ></Card>
+
+    <h1>My stacks:</h1>
+    <div className="row">
+      <img src={reactLogo} alt="react-logo.svg"/>
+      <img src={railsLogo} alt="rails-logo.svg"/>
+    </div>
 
     <h1>Contact me</h1>
     <form
