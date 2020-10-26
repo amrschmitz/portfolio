@@ -27,7 +27,6 @@ import leMargauxLogo from "../images/le-margaux-logo.svg"
 import marineDaoure from "../images/marine-daoure.jpg"
 import marineDaoureLogo from "../images/marine-daoure-logo.svg"
 import mavisTeo from "../images/mavis-teo.jpg"
-import mavisTeoLogo from "../images/mavis-teo-logo.svg"
 import fondationLCP from "../images/fondationlcp.jpg"
 import fondationLCPLogo from "../images/fondationlcp-logo.svg"
 import aurei from "../images/aurei.jpg"
@@ -151,7 +150,6 @@ const IndexPage = () => (
       link="https://www.mavisteo.com/"
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
-      logo={mavisTeoLogo}
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
