@@ -1,5 +1,6 @@
 // Libraries
 import React from "react"
+import SVG from "react-inlinesvg"
 
 // FontAwesome icons
 import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from 'react-icons/fa';
@@ -134,7 +135,6 @@ const IndexPage = () => (
       screenshot={rt2health}
       screenshotAlt="rt2health.jpg"
       logo={rt2healthLogo}
-      logopng='true'
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -155,7 +155,6 @@ const IndexPage = () => (
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
       logo={mavisTeoLogo}
-      logopng='true'
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -192,10 +191,10 @@ const IndexPage = () => (
 
     <h1>My stacks:</h1>
     <div className="row">
-      <img src={reactLogo} alt="react-logo.svg" />
-      <img src={railsLogo} alt="rails-logo.svg" />
-      <img src={netlifyLogo} alt="netlify-logo.svg" />
-      <img src={herokuLogo} alt="heroku-logo.svg" />
+      <SVG src={reactLogo} alt="react-logo.svg" />
+      <SVG src={railsLogo} alt="rails-logo.svg" />
+      <SVG src={netlifyLogo} alt="netlify-logo.svg" />
+      <SVG src={herokuLogo} alt="heroku-logo.svg" />
     </div>
 
     <h1>Contact me</h1>
