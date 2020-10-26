@@ -5,34 +5,35 @@ import React from "react"
 import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from 'react-icons/fa';
 
 // Components
+import Card from "../components/card"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Card from "../components/card"
 
 // Images for the projects
-import incorpus from "../images/inCORPUS.jpg"
-import incorpusLogo from "../images/inCORPUS-logo.svg"
-import cerbo from "../images/cerbo.jpg"
-import cerboLogo from "../images/cerbo-logo.svg"
-import maisonCedric from "../images/maison-cedric.jpg"
-import maisonCedricLogo from "../images/gatsby-logo.svg"
 import approximity from "../images/approximity.jpg"
 import approximityLogo from "../images/approximity-logo.svg"
-import funkMyMood from "../images/funk-my-mood.jpg"
-import funkMyMoodLogo from "../images/funk-my-mood-logo.svg"
-import rt2health from "../images/rt2health.jpg"
-import rt2healthLogo from "../images/rt2health-logo.png"
-import leMargaux from "../images/le-margaux.jpg"
-import leMargauxLogo from "../images/le-margaux-logo.svg"
-import marineDaoure from "../images/marine-daoure.jpg"
-import marineDaoureLogo from "../images/marine-daoure-logo.svg"
-import mavisTeo from "../images/mavis-teo.jpg"
-import fondationLCP from "../images/fondationlcp.jpg"
-import fondationLCPLogo from "../images/fondationlcp-logo.svg"
 import aurei from "../images/aurei.jpg"
 import aureiLogo from "../images/aurei-logo.svg"
 import centaurusCommunications from "../images/centaurus-communications.jpg"
 import centaurusCommunicationsLogo from "../images/centaurus-communications-logo.svg"
+import cerbo from "../images/cerbo.jpg"
+import cerboLogo from "../images/cerbo-logo.svg"
+import fondationLCP from "../images/fondationlcp.jpg"
+import fondationLCPLogo from "../images/fondationlcp-logo.svg"
+import funkMyMood from "../images/funk-my-mood.jpg"
+import funkMyMoodLogo from "../images/funk-my-mood-logo.svg"
+import incorpus from "../images/inCORPUS.jpg"
+import incorpusLogo from "../images/inCORPUS-logo.svg"
+import leMargaux from "../images/le-margaux.jpg"
+import leMargauxLogo from "../images/le-margaux-logo.svg"
+import maisonCedric from "../images/maison-cedric.jpg"
+import maisonCedricLogo from "../images/gatsby-logo.svg"
+import marineDaoure from "../images/marine-daoure.jpg"
+import marineDaoureLogo from "../images/marine-daoure-logo.svg"
+import mavisTeo from "../images/mavis-teo.jpg"
+import mavisTeoLogo from "../images/mavis-teo-logo.png"
+import rt2health from "../images/rt2health.jpg"
+import rt2healthLogo from "../images/rt2health-logo.png"
 
 // Images for the stacks
 import reactLogo from "../images/react-logo.svg"
@@ -131,6 +132,7 @@ const IndexPage = () => (
       screenshot={rt2health}
       screenshotAlt="rt2health.jpg"
       logo={rt2healthLogo}
+      logopng='true'
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -150,6 +152,8 @@ const IndexPage = () => (
       link="https://www.mavisteo.com/"
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
+      logo={mavisTeoLogo}
+      logopng='true'
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
