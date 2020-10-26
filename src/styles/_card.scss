@@ -17,9 +17,9 @@
       .line {
         height: 1px;
         width: 100%;
-        margin: 0 20px 0 0;
       }
       .logo {
+        margin: 0 0 0 20px;
         box-shadow: none;
         height: 1.5em;
         width: 1.5em;
@@ -43,8 +43,8 @@
       margin: 40px 40px 0 0;
       .top {
         flex-direction: row-reverse;
-        .line {
-          margin: 0 0 0 20px;
+        .logo {
+          margin: 0 20px 0 0;
         }
       }
       h2, p {

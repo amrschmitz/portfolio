@@ -27,13 +27,13 @@ import leMargauxLogo from "../images/le-margaux-logo.svg"
 import marineDaoure from "../images/marine-daoure.jpg"
 import marineDaoureLogo from "../images/marine-daoure-logo.svg"
 import mavisTeo from "../images/mavis-teo.jpg"
-import mavisTeoLogo from "../images/mavis-teo-logo.png"
+import mavisTeoLogo from "../images/mavis-teo-logo.svg"
 import fondationLCP from "../images/fondationlcp.jpg"
 import fondationLCPLogo from "../images/fondationlcp-logo.png"
 import aurei from "../images/aurei.jpg"
 import aureiLogo from "../images/aurei-logo.svg"
 import centaurusCommunications from "../images/centaurus-communications.jpg"
-import centaurusCommunicationsLogo from "../images/centaurus-communications-logo.png"
+import centaurusCommunicationsLogo from "../images/centaurus-communications-logo.svg"
 
 // Images for the stacks
 import reactLogo from "../images/react-logo.svg"
@@ -66,7 +66,6 @@ const IndexPage = () => (
       screenshot={incorpus}
       screenshotAlt="inCORPUS.jpg"
       logo={incorpusLogo}
-      logoAlt="inCORPUS-logo.svg"
       text1="Stack: GatsbyJS (React) - JS, HTML & CSS"
       text2="APIs: ActiveCampaign, Intercom"
       text3="CMS: Contentful"
@@ -79,7 +78,6 @@ const IndexPage = () => (
       screenshot={cerbo}
       screenshotAlt="cerbo.jpg"
       logo={cerboLogo}
-      logoAlt="cerbo-logo.svg"
       text1="Stack: Flask - Python, JS (JQuery), HTML & CSS"
       text2="I cofounded this startup in EdTech"
       text3="Language: English"
@@ -91,7 +89,6 @@ const IndexPage = () => (
       screenshot={maisonCedric}
       screenshotAlt="maison-cedric.jpg"
       logo={maisonCedricLogo}
-      logoAlt="gatsby-logo.svg"
       text1="Stack: GatsbyJS (React) - JS, HTML & CSS"
       text2="CMS: Airtable used as a database"
       text3="Languages: French & English"
@@ -103,7 +100,6 @@ const IndexPage = () => (
       screenshot={approximity}
       screenshotAlt="approximity.jpg"
       logo={approximityLogo}
-      logoAlt="approximity-logo.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
       text3="Language: English"
@@ -115,7 +111,6 @@ const IndexPage = () => (
       screenshot={funkMyMood}
       screenshotAlt="funk-my-mood.jpg"
       logo={funkMyMoodLogo}
-      logoAlt="funk-my-mood.svg"
       text1="Stack: Ruby on Rails - Ruby, JS, HTML & CSS"
       text2="APIs: Mapbox, Google Maps for the seed"
       text3="Language: English"
@@ -127,7 +122,6 @@ const IndexPage = () => (
       screenshot={leMargaux}
       screenshotAlt="le-margaux.jpg"
       logo={leMargauxLogo}
-      logoAlt="le-margaux-logo.svg"
       text1="Stack: Wix"
       text2="Language: French"
     ></Card>
@@ -138,7 +132,6 @@ const IndexPage = () => (
       screenshot={rt2health}
       screenshotAlt="rt2health.jpg"
       logo={rt2healthLogo}
-      logoAlt="rt2health-logo.png"
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -149,7 +142,6 @@ const IndexPage = () => (
       screenshot={marineDaoure}
       screenshotAlt="marine-daoure.jpg"
       logo={marineDaoureLogo}
-      logoAlt="marine-daoure-logo.svg"
       text1="Stack: Wix"
       text2="Languages: English & French"
     ></Card>
@@ -160,7 +152,6 @@ const IndexPage = () => (
       screenshot={mavisTeo}
       screenshotAlt="mavis-teo.jpg"
       logo={mavisTeoLogo}
-      logoAlt="mavis-teo-logo.png"
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -171,7 +162,6 @@ const IndexPage = () => (
       screenshot={centaurusCommunications}
       screenshotAlt="centaurus-communications.jpg"
       logo={centaurusCommunicationsLogo}
-      logoAlt="centaurus-communications-logo.png"
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -182,7 +172,6 @@ const IndexPage = () => (
       screenshot={aurei}
       screenshotAlt="aurei.jpg"
       logo={aureiLogo}
-      logoAlt="aurei-logo.svg"
       text1="Stack: Wix"
       text2="Language: English"
     ></Card>
@@ -193,7 +182,6 @@ const IndexPage = () => (
       screenshot={fondationLCP}
       screenshotAlt="fondationlcp.jpg"
       logo={fondationLCPLogo}
-      logoAlt="fondationlcp-logo.png"
       text1="Stack: Wix"
       text2="Language: French & English"
     ></Card>

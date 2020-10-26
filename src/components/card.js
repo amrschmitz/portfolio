@@ -1,4 +1,5 @@
 import React from "react"
+import SVG from 'react-inlinesvg'
 import Fade from 'react-reveal/Fade'
 
 const Card = ({ title, type = 'card left', link, screenshot, screenshotAlt, logo, logoAlt, text1, text2, text3, text4, text5 }) => (
@@ -7,7 +8,9 @@ const Card = ({ title, type = 'card left', link, screenshot, screenshotAlt, logo
     <div className="content">
       <div className="top">
         <div className="line"></div>
-        <Fade duration={8000}><img className="logo" src={logo} alt={logoAlt}/></Fade>
+        <Fade duration={8000}>
+          <SVG src={logo} className="logo"/>
+        </Fade>
       </div>
         <div>
           <a href={link} target="_blank" rel="noreferrer"><h2>{title}</h2></a>
