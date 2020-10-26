@@ -39,6 +39,7 @@ import rt2healthLogo from "../images/rt2health-logo.png"
 import reactLogo from "../images/stacks/react-logo.svg"
 import railsLogo from "../images/stacks/rails-logo.svg"
 import netlifyLogo from "../images/stacks/netlify-logo.svg"
+import herokuLogo from "../images/stacks/heroku-logo.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -194,6 +195,7 @@ const IndexPage = () => (
       <img src={reactLogo} alt="react-logo.svg" />
       <img src={railsLogo} alt="rails-logo.svg" />
       <img src={netlifyLogo} alt="netlify-logo.svg" />
+      <img src={herokuLogo} alt="heroku-logo.svg" />
     </div>
 
     <h1>Contact me</h1>
