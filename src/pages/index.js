@@ -36,8 +36,9 @@ import rt2health from "../images/rt2health.jpg"
 import rt2healthLogo from "../images/rt2health-logo.png"
 
 // Images for the stacks
-import reactLogo from "../images/react-logo.svg"
-import railsLogo from "../images/rails-logo.svg"
+import reactLogo from "../images/stacks/react-logo.svg"
+import railsLogo from "../images/stacks/rails-logo.svg"
+import netlifyLogo from "../images/stacks/netlify-logo.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -46,16 +47,16 @@ const IndexPage = () => (
     <h1>Hi, I'm Alexandre. I'm a full stack web developer and designer</h1>
     <div className="row">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
-        <FaEnvelope/>
+        <FaEnvelope />
       </a>
       <a href="https://www.instagram.com/amrschmitz/" aria-label="Go to Instagram" target="_blank" rel="noreferrer">
-        <FaInstagram/>
+        <FaInstagram />
       </a>
       <a href="https://www.linkedin.com/in/amrschmitz/" aria-label="Go to LinkedIn" target="_blank" rel="noreferrer">
-        <FaLinkedinIn/>
+        <FaLinkedinIn />
       </a>
       <a href="https://github.com/amrschmitz" aria-label="Go to GitHub" target="_blank" rel="noreferrer">
-        <FaGithub/>
+        <FaGithub />
       </a>
     </div>
 
@@ -190,8 +191,9 @@ const IndexPage = () => (
 
     <h1>My stacks:</h1>
     <div className="row">
-      <img src={reactLogo} alt="react-logo.svg"/>
-      <img src={railsLogo} alt="rails-logo.svg"/>
+      <img src={reactLogo} alt="react-logo.svg" />
+      <img src={railsLogo} alt="rails-logo.svg" />
+      <img src={netlifyLogo} alt="netlify-logo.svg" />
     </div>
 
     <h1>Contact me</h1>
@@ -202,17 +204,17 @@ const IndexPage = () => (
       data-netlify="true"
     >
       <label htmlFor="name">Full Name</label>
-      <input type="text" name="name" id="name" />
+      <input type="text" name="name" id="name"  />
       <label htmlFor="email">Email</label>
-      <input type="email" name="email" id="email" />
+      <input type="email" name="email" id="email"  />
       <label htmlFor="subject">Subject</label>
-      <input type="text" name="subject" id="subject" />
+      <input type="text" name="subject" id="subject"  />
       <label htmlFor="message">Message</label>
-      <textarea name="message" id="message" rows="5" />
+      <textarea name="message" id="message" rows="5"  />
       <div className="reset">
-        <input type="reset" value="clear" role="button"/>
+        <input type="reset" value="clear" role="button" />
       </div>
-      <button type="submit"><FaPaperPlane/></button>
+      <button type="submit"><FaPaperPlane /></button>
     </form>
   </Layout>
 )
