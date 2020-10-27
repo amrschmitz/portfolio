@@ -46,7 +46,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
 
-    <h1>Hi, I'm Alexandre. I'm a full stack web developer and designer</h1>
+    <h1>Hi, I'm Alexandre. I'm a full stack web developer and designer.</h1>
     <div className="row">
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope />
