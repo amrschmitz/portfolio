@@ -190,7 +190,7 @@ const IndexPage = () => (
     ></Card>
 
     <h1>My stacks:</h1>
-    <div className="row">
+    <div className="row stacks">
       <SVG src={reactLogo} alt="react-logo.svg" />
       <SVG src={railsLogo} alt="rails-logo.svg" />
       <SVG src={netlifyLogo} alt="netlify-logo.svg" />

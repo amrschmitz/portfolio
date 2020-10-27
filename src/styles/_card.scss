@@ -66,3 +66,9 @@
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .card .content a {
+    color: white;
+  }
+}
