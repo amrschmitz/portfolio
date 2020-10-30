@@ -4,6 +4,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  background-color: white;
+  color: black;
+}
 header {
   display: flex;
   align-items: center;
@@ -26,6 +30,7 @@ footer {
   padding: 20px 0 12px 0;
   max-width: 900px;
   margin: 0 auto;
+  border-top: 1px solid black;
 }
 h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
@@ -49,6 +54,9 @@ h3 {
 p {
   font-size: 1em;
 }
+svg {
+  fill: black;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -71,6 +79,7 @@ form {
     line-height: 2em;
     border: none;
     font-family: monospace;
+    border-bottom: 1px solid black;
     &:focus {
       font-size: 16px;
       box-shadow: none !important;
@@ -119,6 +128,9 @@ form {
     margin: 0 2em;
   }
 }
+.line {
+  background-color: black;
+}
 
 @media only screen and (max-width: 900px) {
   header {
@@ -162,23 +174,4 @@ form {
     border-top: 1px solid white;
   }
 }
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: white;
-    color: black;
-    svg {
-      fill: black;
-    }
-    form {
-      input, textarea {
-        border-bottom: 1px solid black;
-      }
-    }
-    .line {
-      background-color: black;
-    }
-  }
-  footer {
-    border-top: 1px solid black;
-  }
-}
+
