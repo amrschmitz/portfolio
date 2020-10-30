@@ -32,9 +32,9 @@ import maisonCedricLogo from "../images/projects/gatsby-logo.svg"
 import marineDaoure from "../images/projects/marine-daoure.jpg"
 import marineDaoureLogo from "../images/projects/marine-daoure-logo.svg"
 import mavisTeo from "../images/projects/mavis-teo.jpg"
-import mavisTeoLogo from "../images/projects/mavis-teo-logo.png"
+import mavisTeoLogo from "../images/projects/mavis-teo-logo.svg"
 import rt2health from "../images/projects/rt2health.jpg"
-import rt2healthLogo from "../images/projects/rt2health-logo.png"
+import rt2healthLogo from "../images/projects/rt2health-logo.svg"
 
 // Images for the stacks
 import reactLogo from "../images/stacks/react-logo.svg"
