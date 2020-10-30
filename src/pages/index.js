@@ -141,7 +141,7 @@ const IndexPage = () => (
     <Card
       title="Marine d'Aouré"
       type="card right"
-      link="https://www.marinedaoure.com/"
+      link="https://www.marinedaure.com/"
       screenshot={marineDaoure}
       screenshotAlt="marine-daoure.jpg"
       logo={marineDaoureLogo}
