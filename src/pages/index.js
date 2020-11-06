@@ -41,6 +41,8 @@ import reactLogo from "../images/stacks/react-logo.svg"
 import railsLogo from "../images/stacks/rails-logo.svg"
 import netlifyLogo from "../images/stacks/netlify-logo.svg"
 import herokuLogo from "../images/stacks/heroku-logo.svg"
+import contentfulLogo from "../images/stacks/contentful-logo.svg"
+import airtableLogo from "../images/stacks/airtable-logo.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -195,6 +197,8 @@ const IndexPage = () => (
       <SVG src={railsLogo} alt="rails-logo.svg" />
       <SVG src={netlifyLogo} alt="netlify-logo.svg" />
       <SVG src={herokuLogo} alt="heroku-logo.svg" />
+      <SVG src={contentfulLogo} alt="heroku-logo.svg" />
+      <SVG src={airtableLogo} alt="heroku-logo.svg" />
     </div>
 
     <h1>Contact me</h1>
