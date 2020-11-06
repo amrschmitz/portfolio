@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `AS websmith`,
-    description: `Back-End - Front-End - UX - UI`,
+    title: `Alexandre Schmitz`,
+    description: `Websmith`,
     author: `@amrschmitz`,
   },
   plugins: [
