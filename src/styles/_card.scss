@@ -21,8 +21,8 @@
       .logo {
         margin: 0 0 0 20px;
         box-shadow: none;
-        height: 1.5em;
-        width: 1.5em;
+        max-height: 1.5em;
+        max-width: 1.5em;
       }
     }
     a {
@@ -63,6 +63,12 @@
       margin: 1.5em 0 0 0;
       max-width: 560px;
       width: 100%;
+      .top {
+        .logo {
+          max-height: 1.3em;
+          max-width: 1.3em;
+        }
+      }
     }
   }
 }
