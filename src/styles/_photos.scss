@@ -1,8 +1,9 @@
 .photos {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: -3em;
   img {
-    max-width: 45%;
-    margin: 1em;
+    max-width: 100%;
+    margin: 3em;
   }
 }
