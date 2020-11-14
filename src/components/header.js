@@ -1,8 +1,8 @@
-import React from "react"
-import SVG from 'react-inlinesvg'
-import { Link } from "gatsby"
+import React from "react";
+import SVG from "react-inlinesvg";
+import { Link } from "gatsby";
 
-import logo from "../images/carla.svg"
+import logo from "../images/carla.svg";
 
 const Header = () => (
   <header>

@@ -1,48 +1,49 @@
 // Libraries
-import React from "react"
-import SVG from "react-inlinesvg"
+import React from "react";
+import SVG from "react-inlinesvg";
+import { Link } from "gatsby";
 
 // FontAwesome icons
-import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaCamera, FaPaperPlane } from 'react-icons/fa';
 
 // Components
-import Card from "../components/card"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Card from "../components/card";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 // Images for the projects
-import approximity from "../images/projects/approximity.jpg"
-import approximityLogo from "../images/projects/approximity-logo.svg"
-import aurei from "../images/projects/aurei.jpg"
-import aureiLogo from "../images/projects/aurei-logo.svg"
-import centaurusCommunications from "../images/projects/centaurus-communications.jpg"
-import centaurusCommunicationsLogo from "../images/projects/centaurus-communications-logo.svg"
-import cerbo from "../images/projects/cerbo.jpg"
-import cerboLogo from "../images/projects/cerbo-logo.svg"
-import fondationLCP from "../images/projects/fondationlcp.jpg"
-import fondationLCPLogo from "../images/projects/fondationlcp-logo.svg"
-import funkMyMood from "../images/projects/funk-my-mood.jpg"
-import funkMyMoodLogo from "../images/projects/funk-my-mood-logo.svg"
-import incorpus from "../images/projects/inCORPUS.jpg"
-import incorpusLogo from "../images/projects/inCORPUS-logo.svg"
-import leMargaux from "../images/projects/le-margaux.jpg"
-import leMargauxLogo from "../images/projects/le-margaux-logo.svg"
-import maisonCedric from "../images/projects/maison-cedric.jpg"
-import maisonCedricLogo from "../images/projects/gatsby-logo.svg"
-import marineDaoure from "../images/projects/marine-daoure.jpg"
-import marineDaoureLogo from "../images/projects/marine-daoure-logo.svg"
-import mavisTeo from "../images/projects/mavis-teo.jpg"
-import mavisTeoLogo from "../images/projects/mavis-teo-logo.svg"
-import rt2health from "../images/projects/rt2health.jpg"
-import rt2healthLogo from "../images/projects/rt2health-logo.svg"
+import approximity from "../images/projects/approximity.jpg";
+import approximityLogo from "../images/projects/approximity-logo.svg";
+import aurei from "../images/projects/aurei.jpg";
+import aureiLogo from "../images/projects/aurei-logo.svg";
+import centaurusCommunications from "../images/projects/centaurus-communications.jpg";
+import centaurusCommunicationsLogo from "../images/projects/centaurus-communications-logo.svg";
+import cerbo from "../images/projects/cerbo.jpg";
+import cerboLogo from "../images/projects/cerbo-logo.svg";
+import fondationLCP from "../images/projects/fondationlcp.jpg";
+import fondationLCPLogo from "../images/projects/fondationlcp-logo.svg";
+import funkMyMood from "../images/projects/funk-my-mood.jpg";
+import funkMyMoodLogo from "../images/projects/funk-my-mood-logo.svg";
+import incorpus from "../images/projects/inCORPUS.jpg";
+import incorpusLogo from "../images/projects/inCORPUS-logo.svg";
+import leMargaux from "../images/projects/le-margaux.jpg";
+import leMargauxLogo from "../images/projects/le-margaux-logo.svg";
+import maisonCedric from "../images/projects/maison-cedric.jpg";
+import maisonCedricLogo from "../images/projects/gatsby-logo.svg";
+import marineDaoure from "../images/projects/marine-daoure.jpg";
+import marineDaoureLogo from "../images/projects/marine-daoure-logo.svg";
+import mavisTeo from "../images/projects/mavis-teo.jpg";
+import mavisTeoLogo from "../images/projects/mavis-teo-logo.svg";
+import rt2health from "../images/projects/rt2health.jpg";
+import rt2healthLogo from "../images/projects/rt2health-logo.svg";
 
 // Images for the stacks
-import reactLogo from "../images/stacks/react-logo.svg"
-import railsLogo from "../images/stacks/rails-logo.svg"
-import netlifyLogo from "../images/stacks/netlify-logo.svg"
-import herokuLogo from "../images/stacks/heroku-logo.svg"
-import contentfulLogo from "../images/stacks/contentful-logo.svg"
-import airtableLogo from "../images/stacks/airtable-logo.svg"
+import reactLogo from "../images/stacks/react-logo.svg";
+import railsLogo from "../images/stacks/rails-logo.svg";
+import netlifyLogo from "../images/stacks/netlify-logo.svg";
+import herokuLogo from "../images/stacks/heroku-logo.svg";
+import contentfulLogo from "../images/stacks/contentful-logo.svg";
+import airtableLogo from "../images/stacks/airtable-logo.svg";
 
 const IndexPage = () => (
   <Layout>
@@ -53,15 +54,19 @@ const IndexPage = () => (
       <a href="mailto:amrschmitz@gmail.com" aria-label="Send email" target="_blank" rel="noreferrer">
         <FaEnvelope />
       </a>
-      <a href="https://www.instagram.com/amrschmitz/" aria-label="Go to Instagram" target="_blank" rel="noreferrer">
-        <FaInstagram />
-      </a>
       <a href="https://www.linkedin.com/in/amrschmitz/" aria-label="Go to LinkedIn" target="_blank" rel="noreferrer">
         <FaLinkedinIn />
       </a>
       <a href="https://github.com/amrschmitz" aria-label="Go to GitHub" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
+      <a href="https://www.instagram.com/amrschmitz/" aria-label="Go to Instagram" target="_blank" rel="noreferrer">
+        <FaInstagram />
+      </a>
+      <Link></Link>
+      <Link to="/photos">
+        <FaCamera />
+      </Link>
     </div>
 
     <Card
