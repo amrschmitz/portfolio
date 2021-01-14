@@ -130,6 +130,13 @@ form {
     margin: 0 2em;
   }
 }
+.stacks {
+  flex-direction: column;
+  align-items: center;
+  svg {
+    margin: 2em;
+  }
+}
 .line {
   background-color: black;
 }
@@ -146,8 +153,6 @@ form {
     margin: 3em 0 0 0;
     padding: 0 0.5em;
     .stacks {
-      // flex-direction: column;
-      // align-items: center;
       svg {
         max-width: 7em;
       }

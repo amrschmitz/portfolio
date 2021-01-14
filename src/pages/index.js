@@ -1,14 +1,15 @@
 // Libraries
-import React from "react"
-import SVG from "react-inlinesvg"
+import React from "react";
+import SVG from "react-inlinesvg";
+import Bounce from "react-reveal/Bounce";
 
 // FontAwesome icons
-import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from 'react-icons/fa';
+import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from "react-icons/fa";
 
 // Components
-import Card from "../components/card"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Card from "../components/card";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 // Images for the projects
 import approximity from "../images/projects/approximity.jpg"
@@ -193,12 +194,24 @@ const IndexPage = () => (
 
     <h1>My stacks:</h1>
     <div className="row stacks">
-      <SVG src={reactLogo} alt="react-logo.svg" />
-      <SVG src={railsLogo} alt="rails-logo.svg" />
-      <SVG src={netlifyLogo} alt="netlify-logo.svg" />
-      <SVG src={herokuLogo} alt="heroku-logo.svg" />
-      <SVG src={contentfulLogo} alt="heroku-logo.svg" />
-      <SVG src={airtableLogo} alt="heroku-logo.svg" />
+      <Bounce left>
+        <SVG src={reactLogo} alt="react-logo.svg" />
+      </Bounce>
+      <Bounce left>
+        <SVG src={railsLogo} alt="rails-logo.svg" />
+      </Bounce>
+      <Bounce left>
+        <SVG src={netlifyLogo} alt="netlify-logo.svg" />
+      </Bounce>
+      <Bounce left>
+        <SVG src={herokuLogo} alt="heroku-logo.svg" />
+      </Bounce>
+      <Bounce left>
+        <SVG src={contentfulLogo} alt="heroku-logo.svg" />
+      </Bounce>
+      <Bounce left>
+        <SVG src={airtableLogo} alt="heroku-logo.svg" />
+      </Bounce>
     </div>
 
     <h1>Contact me</h1>
