@@ -4,13 +4,13 @@ import Fade from 'react-reveal/Fade'
 
 const Card = ({ title, type = 'card left', link, screenshot, screenshotAlt, logo, text1, text2, text3, text4, text5 }) => (
   <div className={type}>
-    <Fade duration={4000}>
+    <Fade duration={5000}>
       <a href={link} target="_blank" rel="noreferrer"><img src={screenshot} alt={screenshotAlt}/></a>
     </Fade>
     <div className="content">
       <div className="top">
         <div className="line"></div>
-        <Fade duration={8000}>
+        <Fade duration={10000}>
           <SVG src={logo} className="logo" />
         </Fade>
       </div>

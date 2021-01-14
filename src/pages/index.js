@@ -197,19 +197,19 @@ const IndexPage = () => (
       <Bounce left>
         <SVG src={reactLogo} alt="react-logo.svg" />
       </Bounce>
-      <Bounce left>
+      <Bounce right>
         <SVG src={railsLogo} alt="rails-logo.svg" />
       </Bounce>
       <Bounce left>
         <SVG src={netlifyLogo} alt="netlify-logo.svg" />
       </Bounce>
-      <Bounce left>
+      <Bounce right>
         <SVG src={herokuLogo} alt="heroku-logo.svg" />
       </Bounce>
       <Bounce left>
         <SVG src={contentfulLogo} alt="heroku-logo.svg" />
       </Bounce>
-      <Bounce left>
+      <Bounce right>
         <SVG src={airtableLogo} alt="heroku-logo.svg" />
       </Bounce>
     </div>
