@@ -4,7 +4,7 @@ import SVG from "react-inlinesvg";
 import Bounce from "react-reveal/Bounce";
 
 // FontAwesome icons
-import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane } from "react-icons/fa";
+import { FaEnvelope, FaInstagram, FaLinkedinIn, FaGithub, FaPaperPlane, FaSpotify } from "react-icons/fa";
 
 // Components
 import Card from "../components/card";
@@ -62,6 +62,9 @@ const IndexPage = () => (
       </a>
       <a href="https://github.com/amrschmitz" aria-label="Go to GitHub" target="_blank" rel="noreferrer">
         <FaGithub />
+      </a>
+      <a href="https://open.spotify.com/playlist/3GJHchAwjnn6UerN6VfZSP?si=ml8nw6aKRmWBDAnwScmzFw" aria-label="My coding playlist" target="_blank" rel="noreferrer">
+        <FaSpotify />
       </a>
     </div>
 
